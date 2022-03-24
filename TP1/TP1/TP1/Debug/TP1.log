@@ -1,0 +1,4 @@
+﻿  queue.cpp
+C:\Users\devil\source\repos\TP1\TP1\queue.cpp(96,20): warning C4101: temp2: неиспользованная локальная переменная
+C:\Users\devil\source\repos\TP1\TP1\queue.cpp(60): warning C4715: List::operator[]: значение возвращается не при всех путях выполнения
+  TP1.vcxproj -> C:\Users\devil\source\repos\TP1\Debug\TP1.exe
