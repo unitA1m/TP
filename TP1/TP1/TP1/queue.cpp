@@ -118,17 +118,16 @@ void List::Merger(List& obj, const List& obj2)
 }
 int List::SumEven(List& obj)
 {
-    Node* current = head;
-    int sum = 0;
-
-    for (int i = 0; i <= obj.GetSize() + 1; i++)
-    {
-        if (current->data % 2 == 0)
+    Node* current = this-> head;
+    int sum = 0, i = 0;
+    while ( current != nullptr ) {
+    
+        if ((current->data) % 2 == 0)
         {
             sum = sum + current->data;
         }
-        else current = current->pNext;
-
+        current = current->pNext;
+        i++;
     }
     return sum;
 }
